@@ -232,6 +232,14 @@ perform get request with POSTMAN
 
 perform DELETE request with POSTMAN
 
+![DELETE request with POSTMAN](./images/MongoDB-database/performing-a-delete-request-with-postman.png)
+
+![url page after DELETE request with postman](./images/MongoDB-database/url-page-after-delete-operation-with-postman.png)
+
+
+
+
+
 
 
 
