@@ -203,9 +203,38 @@ paste new code
 
 ![pasting new code](./images/MongoDB-database/pasting-new-code.png)
 
-start server
+start server with command below
 
-`node.js`
+`node index.js`
+
+![starting server](./images/MongoDB-database/starting-server.png)
+
+we then test Backend Code without Frontend using RESTful API
+
+we will use POSTMAN to test our API
+
+install POSTMAN
+
+test all the API endpoints and make sure they are working
+
+Perform CRUD operations
+
+perform post request with POSTMAN
+
+![performing a POST request  with POSTMAN](./images/MongoDB-database/post-operation-with-postman.png)
+
+
+![url page after POST request](./images/MongoDB-database/url-page-after-post-operation.png)
+
+perform get request with POSTMAN
+
+![performing a GET request with POSTMAN](./images/MongoDB-database/performing-a-get-request-with-postman.png)
+
+perform DELETE request with POSTMAN
+
+
+
+
 
 
 
