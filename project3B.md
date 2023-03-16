@@ -236,6 +236,59 @@ perform DELETE request with POSTMAN
 
 ![url page after DELETE request with postman](./images/MongoDB-database/url-page-after-delete-operation-with-postman.png)
 
+FRONTEND CREATION
+
+scaffold our app by using the create react app command
+
+`cd Todo`
+
+`npx create-react-app client`
+
+![creating react app](./images/frontend-creation/creating-react-app-page1.png)
+
+![creating react app](./images/frontend-creation/creating-react-app-page2.png)
+
+Install dependencies
+
+`npm install concurrently --save-dev`
+
+![installing dependency called concurrently](./images/frontend-creation/installing-concurrently-dependency.png)
+
+`npm install nodemon --save-dev`
+
+![installing dependency called nodemon](./images/frontend-creation/installing-nodemon-dependency.png)
+
+edit code in package.json
+
+`vi package.json`
+
+![editing package.json file](./images/frontend-creation/editing-code-in-package.json.png)
+
+`cd client`
+
+`vi package.json`
+
+Add the key value pair in the package.json file "proxy": "http://localhost:5000".
+
+![adding key value pair](./images/frontend-creation/adding-key-value-pair.png)
+
+change to Todo directory
+
+`cd ..`
+
+`npm run dev`
+
+![npm run dev](./images/frontend-creation/npm-run-dev.png)
+
+To be able to access the application from the Internet, open TCP port 3000 on EC2 by adding a new Security Group rule.
+
+![opening TCP port 3000](./images/frontend-creation/opening-TCP-port-3000.png)
+
+![opening ip address with prot 3000](./images/frontend-creation/opening-ip-address-with-port-3000.png)
+
+create react components
+
+
 
 
 
