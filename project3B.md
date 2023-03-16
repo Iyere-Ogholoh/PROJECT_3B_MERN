@@ -288,6 +288,44 @@ To be able to access the application from the Internet, open TCP port 3000 on EC
 
 create react components
 
+change to client folder
+
+`cd client`
+
+`cd src`
+
+`mkdir components`
+
+`cd components`
+
+`touch Input.js ListTodo.js Todo.js`
+
+![input.js content](./images/frontend-creation/input.js-content.png)
+
+To make use of Axios, which is a Promise based HTTP client for the browser and node.js, you need to cd into your client from your terminal and run yarn add axios or npm install axios.
+
+move to client folder
+
+`cd ..`
+
+`cd ..`
+
+`npm install axios`
+
+![installing axios](./images/frontend-creation/installing-axios.png)
+
+6 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+`npm audit fix --force`
+
+
+
+
+
+
 
 
 
