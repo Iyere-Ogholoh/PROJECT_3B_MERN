@@ -321,12 +321,55 @@ To address all issues (including breaking changes), run:
 
 `npm audit fix --force`
 
+`cd src/components`
 
+`vi ListTodo.js`
 
+paste code
 
+![ListTodo.js code](./images/frontend-creation/ListTodo.js-code.png)
 
+`vi Todo.js`
 
+paste code
 
+![Todo.js code](./images/frontend-creation/Todo.js-code.png)
+
+Make little adjustment to our react code. Delete the logo and adjust our App.js
+
+Move to the src folder
+
+`cd ..`
+
+`vi App.js`
+
+replace code in App.js
+
+![App.js new code](./images/frontend-creation/App.js-new-code.png)
+
+replace code in App.css
+
+`vi App.css`
+
+![App.css new code page 1](./images/frontend-creation/creating-react-app-page1.png)
+
+![App.css new code page 2](./images/frontend-creation/App.css-new-code-page2.png)
+
+replace code in index.css
+
+`vim index.css`
+
+![replacing code in index.css](./images/frontend-creation/index.css-new.code.png)
+
+go to Todo directory
+
+`cd ../..`
+
+`npm run dev`
+
+![npm run dev](./images/frontend-creation/npm-run-dev-final.png)
+
+![Todo app running](./images/frontend-creation/Todo-app-running-in-browser.png)
 
 
 
